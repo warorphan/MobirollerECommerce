@@ -3,4 +3,4 @@
  Product add/delete/edit operations for seller account
  Popular products and new products 
  
-<img align="center" width="100" height="300" src="https://www.hizliresim.com/8elto1i">
+<a href="https://resimyukle.link/i/Cckdw"><img src="https://s3.eu-central-1.wasabisys.com/iresim/Cckdw.jpg" alt="Cckdw.jpg" border="0" /></a>
