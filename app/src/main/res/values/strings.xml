@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Mobiroller App</string>
+
+    <string name="first_slide">Choose Your Products</string>
+    <string name="secound_slide">Fast Delivery</string>
+    <string name="third_slide">Good Service</string>
+
+    <string name="description1">description1 Lorem Ipsum blablabala</string>
+    <string name="description2">description2 Lorem Ipsum blablabala</string>
+    <string name="description3">description3 Lorem Ipsum blablabala</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

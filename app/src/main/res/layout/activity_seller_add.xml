@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".activities.SellerAddActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Product"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="match_parent"
+        android:background="@drawable/edit_text_bg"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:popupBackground="@android:color/holo_blue_light"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:background="@drawable/edit_text_bg"
+        android:hint=" Name *"
+        android:textColorHint="@color/grey_font"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:maxLines="3"
+        android:textColorHint="@color/grey_font"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint=" Description *"
+        android:padding="10dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint=" Price *"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey_font"
+        android:padding="10dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey_font"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint=" Stock *"
+        android:padding="10dp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Add Image *"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_text_bg">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_baseline_add_24">
+        </ImageView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_image"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent">
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Error Text"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:visibility="gone"
+        android:textColor="#ff0000">
+    </TextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:text="Apply"
+        android:background="@drawable/back_btn"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
