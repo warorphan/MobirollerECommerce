@@ -1,4 +1,4 @@
- <h2>Mobiroller ECommerce App Challenge<h2> < br >
+ <h2>Mobiroller ECommerce App Challenge<h2> 
  <h3>Seller and customer login <h3> 
  <h3>Product add/delete/edit operations for seller account<h3> 
  <h3>Popular products and new products<h3>  
