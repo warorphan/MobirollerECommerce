@@ -3,5 +3,5 @@
  Product add/delete/edit operations for seller account
  Popular products and new products 
  <p align="center">
-  <img src="https://www.hizliresim.com/8elto1i">
+  <img width="460" height="300" src="https://www.hizliresim.com/8elto1i">
 </p>
